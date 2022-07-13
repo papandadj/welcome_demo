@@ -1,0 +1,12 @@
+FROM golang:1.17.5 as builder
+ENV GOPROXY https://goproxy.cn
+WORKDIR /src
+COPY go.mod go.sum ./
+RUN go mod download
+COPY . .
+RUN go build -o main .
+
+FROM alpine:3.15.0
+RUN apk add --no-cache ca-certificates
+COPY --from=builder /src/main /usr/local/main
+CMD [ "/usr/local/main" ]

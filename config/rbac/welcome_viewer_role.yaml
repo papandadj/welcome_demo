@@ -1,0 +1,20 @@
+# permissions for end users to view welcomes.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: welcome-viewer-role
+rules:
+- apiGroups:
+  - webapp.demo.welcome.domain
+  resources:
+  - welcomes
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - webapp.demo.welcome.domain
+  resources:
+  - welcomes/status
+  verbs:
+  - get

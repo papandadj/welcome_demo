@@ -1,0 +1,16 @@
+domain: demo.welcome.domain
+layout:
+- go.kubebuilder.io/v3
+projectName: test-kubebuilder
+repo: welcome_demo.domain
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: demo.welcome.domain
+  group: webapp
+  kind: Welcome
+  path: welcome_demo.domain/api/v1
+  version: v1
+version: "3"

@@ -1,0 +1,6 @@
+apiVersion: webapp.demo.welcome.domain/v1
+kind: Welcome
+metadata:
+  name: welcome-sample
+spec:
+  name: myFriends

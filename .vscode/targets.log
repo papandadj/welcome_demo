@@ -1,0 +1,487 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Wed Jul 13 11:28:15 2022
+
+# Variables
+
+# environment
+VSCODE_GIT_ASKPASS_MAIN = /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from `Makefile', line 117)
+CONTROLLER_TOOLS_VERSION = v0.9.0
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/po/code/dongjia/golang/test-kubebuilder
+# makefile (from `Makefile', line 17)
+SHELL = /usr/bin/env bash -o pipefail
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 106)
+LOCALBIN = $(shell pwd)/bin
+# environment
+SKAFFOLD_DEFAULT_REPO = registry.cn-hangzhou.aliyuncs.com/onlineboutique
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+GO111MODULE = on
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_CWD = /Users/po/code/dongjia/golang
+# environment
+GOPROXY = https://goproxy.cn
+# environment
+PATH = /usr/local/bin:/usr/bin:#/opt/homebrew/bin:/Users/po/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion Tech Preview.app/Contents/Public:/usr/local/go/bin:/Users/po/Library/Application Support/cloud-code/installer/google-cloud-sdk/bin:/Users/po/go/bin:/opt/homebrew/bin:CLASS_PATH:/opt/redis-6.2.4:/usr/local/opt/coreutils/libexec/gnubin:/Users/po/Library/Python/3.8/bin:/Users/po/go/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/po/go/bin:/Users/po/go/bin:CLASS_PATH:/opt/redis-6.2.4:/usr/local/opt/coreutils/libexec/gnubin:/Users/po/Library/Python/3.8/bin:/opt/homebrew/bin:/Users/po/google-cloud-sdk/bin
+# makefile (from `Makefile', line 119)
+KUSTOMIZE_INSTALL_SCRIPT = "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"
+# environment
+KUBEBUILDER_CONTROLPLANE_START_TIMEOU = 600s
+# environment
+GOINSECURE = gitlab.e-tudou.com
+# environment
+ETCD_UNSUPPORTED_ARCH = arm64
+# environment
+GOPATH = /Users/po/go
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+KUBECONFIG = /Users/po/.kube/config
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `Makefile', line 112)
+CONTROLLER_GEN = $(LOCALBIN)/controller-gen
+# environment
+CLOUDSDK_METRICS_ENVIRONMENT = cloudcode.vscode
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.TXYnpnhL4K/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `Makefile', line 9)
+GOBIN = $(shell go env GOPATH)/bin
+# environment
+CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 1.19.0
+# environment
+PWD = /Users/po/code/dongjia/golang/test-kubebuilder
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+GOMODCACHE = /Users/po/go/pkg/mod
+# environment
+HOME = /Users/po
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/po/Library/Application Support/Code/CachedData/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+# environment
+LOGNAME = po
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# environment
+XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# environment
+JAVA_HOME = /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+# environment
+AMQP_URL = amqp://dongj:888@localhost:5672/node
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = po
+# makefile
+.DEFAULT_GOAL := all
+# environment
+HOMEBREW_BOTTLE_DOMAIN = https://mirrors.aliyun.com/homebrew/homebrew-bottles
+# environment
+CLASS_PATH = /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home/lib
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+K9SCONFIG = /Users/po/.kube/k9s
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+VSCODE_GIT_ASKPASS_EXTRA_ARGS = --ms-enable-electron-run-as-node
+# makefile (from `Makefile', line 111)
+KUSTOMIZE = $(LOCALBIN)/kustomize
+# environment
+TERM_PROGRAM = vscode
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/98/cchm3dds74g5yql80mj4p4vr0000gn/T/
+# automatic
+*F = $(notdir $*)
+# makefile (from `Makefile', line 3)
+IMG = controller:latest
+# environment
+VSCODE_IPC_HOOK = /Users/po/Library/Application Support/Code/1.69.0-main.sock
+# environment
+VSCODE_GIT_ASKPASS_NODE = /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper
+# environment
+MallocNanoZone = 0
+# makefile (from `Makefile', line 116)
+KUSTOMIZE_VERSION = v3.8.7
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 1.69.0
+# makefile (from `Makefile', line 18)
+.SHELLFLAGS = -ec
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.36370842.36370848.8FA2462F-F32F-4011-8209-2373D6126D8A
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# makefile (from `Makefile', line 113)
+ENVTEST = $(LOCALBIN)/setup-envtest
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# environment
+GIT_ASKPASS = /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+GOPRIVATE = gitlab.51idc.com,gitlab.e-tudou.com
+# environment
+XDG_CONFIG_HOME = /Users/po/code/config/traefik
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+VSCODE_GIT_IPC_HANDLE = /var/folders/98/cchm3dds74g5yql80mj4p4vr0000gn/T/vscode-git-db17a1088b.sock
+# makefile (from `Makefile', line 83)
+ignore-not-found = false
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# makefile (from `Makefile', line 5)
+ENVTEST_K8S_VERSION = 1.24.1
+# environment
+VSCODE_PID = 1573
+# variable set hash-table stats:
+# Load=99/1024=10%, Rehash=0, Collisions=11/177=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777230, inode 36965857): 18 files, no impossibilities.
+
+# 18 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+envtest: /Users/po/code/dongjia/golang/test-kubebuilder/bin/setup-envtest
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+/Users/po/code/dongjia/golang/test-kubebuilder/bin:
+ 
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-13 09:47:48
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 108):
+	mkdir -p $(LOCALBIN)
+	
+
+all: build
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+docker-build: test
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 74):
+	docker build -t ${IMG} .
+	
+
+.PHONY: all help manifests generate fmt vet test build run docker-build docker-push install uninstall deploy undeploy kustomize controller-gen envtest
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/po/code/dongjia/golang/test-kubebuilder/bin/controller-gen: /Users/po/code/dongjia/golang/test-kubebuilder/bin
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-13 09:47:48
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 128):
+	GOBIN=$(LOCALBIN) go install sigs.k8s.io/controller-tools/cmd/controller-gen@$(CONTROLLER_TOOLS_VERSION)
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+uninstall: manifests kustomize
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 92):
+	$(KUSTOMIZE) build config/crd | kubectl delete --ignore-not-found=$(ignore-not-found) -f -
+	
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-13 09:40:55
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+test: manifests generate fmt vet envtest
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 60):
+	KUBEBUILDER_ASSETS="$(shell $(ENVTEST) use $(ENVTEST_K8S_VERSION) -p path)" go test ./... -coverprofile cover.out
+	
+
+build: generate fmt vet
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  commands to execute (from `Makefile', line 66):
+	go build -o bin/manager main.go
+	
+
+vet:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 56):
+	go vet ./...
+	
+
+/Users/po/code/dongjia/golang/test-kubebuilder/bin/kustomize: /Users/po/code/dongjia/golang/test-kubebuilder/bin
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 123):
+	curl -s $(KUSTOMIZE_INSTALL_SCRIPT) | bash -s -- $(subst v,,$(KUSTOMIZE_VERSION)) $(LOCALBIN)
+	
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 38):
+	@awk 'BEGIN {FS = ":.*##"; printf "\nUsage:\n  make \033[36m<target>\033[0m\n"} /^[a-zA-Z_0-9-]+:.*?##/ { printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2 } /^##@/ { printf "\n\033[1m%s\033[0m\n", substr($$0, 5) } ' $(MAKEFILE_LIST)
+	
+
+kustomize: /Users/po/code/dongjia/golang/test-kubebuilder/bin/kustomize
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+generate: controller-gen
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := generate
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := controller-gen
+# automatic
+# | := 
+# automatic
+# < := controller-gen
+# automatic
+# ^ := controller-gen
+# automatic
+# ? := controller-gen
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/14=14%
+#  commands to execute (from `Makefile', line 48):
+	$(CONTROLLER_GEN) object:headerFile="hack/boilerplate.go.txt" paths="./..."
+	
+
+undeploy:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 101):
+	$(KUSTOMIZE) build config/default | kubectl delete --ignore-not-found=$(ignore-not-found) -f -
+	
+
+manifests: controller-gen
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 44):
+	$(CONTROLLER_GEN) rbac:roleName=manager-role crd webhook paths="./..." output:crd:artifacts:config=config/crd/bases
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: manifests generate fmt vet
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 70):
+	go run ./main.go
+	
+
+/Users/po/code/dongjia/golang/test-kubebuilder/bin/setup-envtest: /Users/po/code/dongjia/golang/test-kubebuilder/bin
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 133):
+	GOBIN=$(LOCALBIN) go install sigs.k8s.io/controller-runtime/tools/setup-envtest@latest
+	
+
+fmt:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 52):
+	go fmt ./...
+	
+
+deploy: manifests kustomize
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 96):
+	cd config/manager && $(KUSTOMIZE) edit set image controller=${IMG}
+	$(KUSTOMIZE) build config/default | kubectl apply -f -
+	
+
+controller-gen: /Users/po/code/dongjia/golang/test-kubebuilder/bin/controller-gen
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+docker-push:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 78):
+	docker push ${IMG}
+	
+
+install: manifests kustomize
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 88):
+	$(KUSTOMIZE) build config/crd | kubectl apply -f -
+	
+
+# files hash-table stats:
+# Load=26/1024=3%, Rehash=0, Collisions=2/103=2%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Wed Jul 13 11:28:15 2022
+
+ 

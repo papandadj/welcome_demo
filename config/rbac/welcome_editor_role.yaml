@@ -1,0 +1,24 @@
+# permissions for end users to edit welcomes.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: welcome-editor-role
+rules:
+- apiGroups:
+  - webapp.demo.welcome.domain
+  resources:
+  - welcomes
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - webapp.demo.welcome.domain
+  resources:
+  - welcomes/status
+  verbs:
+  - get
